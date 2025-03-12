@@ -48,4 +48,4 @@ for page in range(start_page, end_page + 1):
 df = pd.DataFrame(data, columns=["Title", "URL", "Authors", "Journal", "Year", "Citations"])
 df.to_csv("sinta_scraped_data.csv", index=False, encoding='utf-8')
 
-print("Scraping selesai, data disimpan ke sinta_scraped_data.csv")
+print("Scraping selesai, data disimpan ke sinta_unila.csv")
